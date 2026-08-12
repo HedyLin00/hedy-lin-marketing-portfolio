@@ -280,6 +280,26 @@
       white-space: nowrap;
     }
     .section-intro { margin: 0; color: var(--muted); font-size: 18px; }
+    .section-aside { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; }
+    .case-link-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 44px;
+      padding: 10px 20px;
+      border: 1px solid var(--ink);
+      border-radius: 999px;
+      color: var(--ink);
+      background: transparent;
+      font-size: 14px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform .25s ease, color .25s ease, background .25s ease, border-color .25s ease;
+    }
+    .case-link-button:hover { transform: translateY(-2px); color: var(--white); background: var(--ink); }
+    .case-link-button:focus-visible { outline: 3px solid rgba(84,230,214,.35); outline-offset: 3px; }
+    .case .case-link-button { color: var(--cyan); border-color: var(--cyan); }
+    .case .case-link-button:hover { color: var(--ink); background: var(--cyan); }
 
     .fit-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; }
     .fit-card {
@@ -602,7 +622,7 @@
       <div class="container">
         <div class="section-head reveal">
           <div><span class="section-kicker case-label">02 / FLAGSHIP CASE</span><h2>AI 产品从技术概念，<br>走向真实试用。</h2></div>
-          <p class="section-intro">主导公司自研 AI 产品「开物·消费品牌全链路增长智能体蜂群 1.0」的产品定位、价值叙事、联合发布策略等整合营销传播。</p>
+          <div class="section-aside"><p class="section-intro">主导公司自研 AI 产品「开物·消费品牌全链路增长智能体蜂群 1.0」的产品定位、价值叙事、联合发布策略等整合营销传播。</p><a class="case-link-button" href="https://mp.weixin.qq.com/s/R6gszKhKN4bv1PQR6gp8jQ" target="_blank" rel="noopener noreferrer">查看相关案例 ↗</a></div>
         </div>
         <div class="case-grid">
           <article class="brief reveal">
@@ -632,7 +652,7 @@
       <div class="container">
         <div class="section-head reveal">
           <div><span class="section-kicker">03 / INDUSTRY IP</span><h2>从 0 到 1，<br>把调研做成增长引擎。</h2></div>
-          <p class="section-intro">连续三年担任公司 S 级项目《中国消费品牌增长力大调查》总 PM，深度参与从 0 到 1 的项目定位与整合营销，把研究白皮书、纪录片、榜单、千人峰会等整合为持续运营的行业 IP。</p>
+          <div class="section-aside"><p class="section-intro">连续三年担任公司 S 级项目《中国消费品牌增长力大调查》总 PM，深度参与从 0 到 1 的项目定位与整合营销，把研究白皮书、纪录片、榜单、千人峰会等整合为持续运营的行业 IP。</p><a class="case-link-button" href="https://my.feishu.cn/wiki/K3FCwHyZhioPgak2uO9cCfENnkr?from=from_copylink" target="_blank" rel="noopener noreferrer">查看相关案例 ↗</a></div>
         </div>
         <div class="case-summary">
           <article class="quote-card reveal"><span class="mark">“</span><blockquote>不是办一场活动，<br>而是建立一个可持续放大的行业议题。</blockquote></article>
@@ -659,7 +679,7 @@
       <div class="container">
         <div class="section-head reveal">
           <div><span class="section-kicker">04 / INTEGRATED CAMPAIGN</span><h2>把公益议题，<br>变成全民参与的传播行动。</h2></div>
-          <p class="section-intro">联合国环境署 × 界面新闻公益 Campaign｜用议题策划、名人参与、社交传播与媒体协同构建传播势能。</p>
+          <div class="section-aside"><p class="section-intro">联合国环境署 × 界面新闻公益 Campaign｜用议题策划、名人参与、社交传播与媒体协同构建传播势能。</p><a class="case-link-button" href="https://mp.weixin.qq.com/s/p5k9grZtyL-V831YRvHOow" target="_blank" rel="noopener noreferrer">查看相关案例 ↗</a></div>
         </div>
         <div class="campaign-grid">
           <article class="campaign-story reveal">
